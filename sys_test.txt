@@ -1,0 +1,18 @@
+#include<stdio.h>
+int sys_test()
+{
+  int i =1;
+  return(*(*char)&i)
+}
+int main()
+{
+  int t=sys_test();
+  if(ret==1)
+  {
+    printf("小端\n");
+  }
+  else
+  {
+    printf("大端\n");
+  }
+}
